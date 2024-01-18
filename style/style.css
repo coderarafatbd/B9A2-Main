@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+body{
+  background: #FFF;
+  max-width: 90rem;
+  max-height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav{
+  max-width: 73.125rem;
+  height: 2.813rem;
+  display: flex;
+  margin-left:8.438rem ;
+  margin-right: 8.438rem;
+}
+nav .logo{
+  display: flex;
+  width: 17.125;
+  height: 3rem;
+ 
+}
+.logo img{
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.logo-text{
+  display: flex;
+  width: 12.563rem;
+  height: 3rem;
+}
+.logo-text h1{
+  display: flex;
+  width: 12.563rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: 800;
+  
+  color: #131318;
+}
+.logo-text span{
+  font-size: 2rem;
+  font-weight: 800;
+  
+  color: #FF5400;
+}
+
+.menu{
+  width: 31.625rem;
+  height: 3rem;
+  display: flex;
+  /* gap: 2.75rem; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 24.898rem;
+    /* justify-content: end; */
+}
+.menu >ul{
+  display: flex;
+  gap: 2.75rem;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+}
+.menu > ul > li{
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: ##424247;
+}
+.menu > ul >li span{
+  color: #FF5400;
+  font-weight: 700;
+}
+
