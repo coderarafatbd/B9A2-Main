@@ -580,3 +580,51 @@ margin-top: 1rem;
   margin-left: 2rem;
   margin-top: 1rem;
 }
+
+
+
+.deals{
+  width: 75.125rem;
+  margin-top: 2rem;
+  margin-left: 8.4375rem;
+}
+.deals-text{
+  width: 40.1875rem;
+  height: 7.875rem;
+  
+  margin-left: 15.7188rem;
+}
+.deals-text h1{
+  color: #131318; 
+  text-align: center;
+  font-size:2.5rem;
+  font-weight: 800;
+}
+.deals-text p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.deals-01{
+  width: 75.125rem;
+  height: 31.25rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  background: url(../Images/Group39.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  
+}
+.deals-01-container{
+  width: 36.1875rem;
+  height: 24.3125rem;
+  margin-left: 33.4375rem;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  margin-top: 3.4688rem;
+
+}
