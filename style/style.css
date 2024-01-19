@@ -470,3 +470,113 @@ font-weight: 400;
   justify-content: center;
   flex-direction: column;
 }
+
+.why-choose-us{
+  width: 75.125rem;
+  margin-top: 2rem;
+  margin-left: 8.4375rem;
+}
+.why-choose-us-text{
+  width: 40.1875rem;
+  height: 7.875rem;
+  
+  margin-left: 15.7188rem;
+}
+.choose-us-heading{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.description{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 1rem;
+}
+.card-01{
+  display: flex;
+  gap: 1.5rem;
+}
+.hotels{
+  width: 35.8125rem;
+  height: 17.75rem;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+.service{
+  width: 35.8125rem;
+  height: 17.75rem;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+.best-price{
+  width: 35.8125rem;
+  height: 17.75rem;
+  margin-left: 18.625rem;
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+.hotels > .icon{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.hotels-heading{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.hotels-description{
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.service >.icon{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.service-heading{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.service-description{
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.best-price >.icon{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.best-price-heading{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.best-price-description{
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
