@@ -18,6 +18,7 @@ nav{
   max-width: 73.125rem;
   height: 2.813rem;
   display: flex;
+  margin-top: 2rem;
   margin-left:8.438rem ;
   margin-right: 8.438rem;
 }
@@ -87,39 +88,105 @@ nav .logo{
 
 
 
+
 .banner{
-  max-width: 73.125rem;
-  height: 34.375rem;
-  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/banner.png);
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8000000119) -0%, rgba(19, 19, 24, 0.8000000119) 100%),url(../Images/banner.png);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 1rem;
-  margin-left: 8.438rem;
-  margin-top: 3.125rem;
+  background-size: 100% 100%;
+  max-width: 75.125rem;
+  height:34.370rem;
+  border-radius: 1.6rem;
+  box-sizing: border-box;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.16rem 0 10.16rem 0;
 }
-.banner-content{
+
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
   width: 50rem;
   height: 18rem;
-  align-items: center;
-  margin-left: 17.938rem;
-  /* margin-right: 17.938rem; */
+  
+  
 }
-
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: calc(100%-15.3rem); */
+  /* margin: 0rem 7.65rem 4.8rem 7.65rem; */
+  border-radius: 0.8rem;
+}
 .banner-heading{
   width: 37.25rem;
-  /* height: 5rem; */
   font-size: 4rem;
   font-weight: 800;
-  color: #FFFFFF;
-  padding-top: 6.625rem;
-  /* margin-top: 6.625rem; */
-}
-.banner-description{
-  width: 42.25rem;
-  height: 3.25rem;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #FFFFFF;
-  padding-top: 1.5rem;
+  line-height:normal;
+  text-align: center;
+  color: #FFF;
+  margin-bottom:2rem;
+  /* white-space: nowrap; */
 }
 
+.banner-description{
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-align: center;
+  width: 100%;
+  height: 3.25rem;
+  margin-top: 1.5rem;
+}
+
+.banner-search-option{
+  display: inline-flex;
+  width: 48rem;
+  height: 5.25rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  align-items: flex-start;
+  
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.30);
+}
+.where-go, .when, .select-type{
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3.25rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  
+  color: #424247;
+}
+.search-btn{
+  border: none;
+  outline: none;
+  background: #FF5400;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3.25rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFF;
+  cursor: pointer;
+  margin-left: 1rem;
+}
