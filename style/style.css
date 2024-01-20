@@ -612,19 +612,202 @@ margin-top: 1rem;
   width: 75.125rem;
   height: 31.25rem;
   margin-top: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  background: url(../Images/Group39.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+.deals-01-container{
+  /* position: absolute; */
+  width: 36.1875REM;
+  position: relative;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 24.3125rem;
+ margin-left: 33.4375rem;
+}
+.deals-01-time-zoon{
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 3.125rem;
+  margin-left: 3.125rem;
+}
+.day{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.people{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.location{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.deals-01-heading{
+  color: #131318;
+  margin-left: 3.125rem;
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-weight: 800;
+}
+.deals-01-description{
+  color: #5A5A5D;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.deals-01-price{
+  color: #FF5400;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  
+}
+.book-btn{
+  width: 9.375rem;
+  height: 3.125rem;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  margin-left: 3.125rem;
+  margin-bottom: 3.125rem;
+  margin-top: 1.5rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+.deals-02{
+  width: 75.125rem;
+  height: 31.25rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  background: url(../Images/Group40.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+.deals-02-container{
+  width: 36.1875REM;
+  position: relative;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 24.3125rem;
+  margin-right: 33.4375rem;
+  margin-left: 3.5rem;
+}
+.deals-02-time-zoon{
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 3.125rem;
+  margin-left: 3.125rem;
+}
+.deals-02-heading{
+  color: #131318;
+  margin-left: 3.125rem;
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-weight: 800;
+}
+.deals-02-description{
+  color: #5A5A5D;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.deals-02-price{
+  color: #FF5400;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  
+}
+.deals-03{
+  width: 75.125rem;
+  height: 31.25rem;
+  margin-top: 2rem;
   border-radius: 16px;
   background: url(../Images/Group39.png), lightgray 50% / cover no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+
+.deals-03-container{
+  /* position: absolute; */
+  width: 36.1875REM;
+  position: relative;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 24.3125rem;
+ margin-left: 33.4375rem;
+}
+
+.deals-03-time-zoon{
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 3.125rem;
+  margin-left: 3.125rem;
+}
+.deals-03-heading{
+  color: #131318;
+  margin-left: 3.125rem;
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-weight: 800;
+}
+.deals-03-description{
+  color: #5A5A5D;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.deals-03-price{
+  color: #FF5400;
+  margin-left: 3.125rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   
 }
-.deals-01-container{
-  width: 36.1875rem;
-  height: 24.3125rem;
-  margin-left: 33.4375rem;
-  border-radius: 16px;
-  border: 2px solid #FFF;
-  background: rgba(255, 255, 255, 0.80);
-  backdrop-filter: blur(2.5px);
-  margin-top: 3.4688rem;
 
+.packages-btn{
+  width: 13.125rem;
+  height: 3.25rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #FF5400;
+  border: none;
+  margin-top: 1.5rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin-left: 30rem;
 }
